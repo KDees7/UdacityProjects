@@ -15,31 +15,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zf3-WG-3Bo">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zf3-WG-3Bo">
                                 <rect key="frame" x="145" y="433" width="125" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Click to Increment"/>
                                 <connections>
                                     <action selector="incrementCount" destination="BYZ-38-t0r" eventType="touchUpInside" id="8fZ-AT-0OQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D7W-fr-Q1V">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D7W-fr-Q1V">
                                 <rect key="frame" x="142" y="489" width="131" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Click to Decrement"/>
                                 <connections>
                                     <action selector="decrementCount" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nd6-ic-tRj"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SfN-ri-hPs">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SfN-ri-hPs">
                                 <rect key="frame" x="186" y="210" width="42" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Zf3-WG-3Bo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="389" id="6Rz-dk-eyd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SfN-ri-hPs" secondAttribute="trailing" constant="186" id="I1P-pu-9eA"/>
+                            <constraint firstItem="SfN-ri-hPs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="166" id="JT9-FB-Kjq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="D7W-fr-Q1V" secondAttribute="trailing" constant="141" id="L1M-EG-vpL"/>
+                            <constraint firstItem="D7W-fr-Q1V" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="445" id="Onk-jG-fLA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Zf3-WG-3Bo" secondAttribute="bottom" constant="399" id="PKP-B4-XwW"/>
+                            <constraint firstItem="SfN-ri-hPs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="186" id="Ufa-NT-KhM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="D7W-fr-Q1V" secondAttribute="bottom" constant="343" id="aua-KN-S0d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SfN-ri-hPs" secondAttribute="bottom" constant="626" id="hOD-fg-gvn"/>
+                            <constraint firstItem="D7W-fr-Q1V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="142" id="ogS-xc-GYm"/>
+                            <constraint firstItem="Zf3-WG-3Bo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="145" id="wsf-1f-b7l"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zf3-WG-3Bo" secondAttribute="trailing" constant="144" id="yw8-hD-QFc"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
