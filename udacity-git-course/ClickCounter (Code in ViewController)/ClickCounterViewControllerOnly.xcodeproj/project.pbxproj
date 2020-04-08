@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E79F5A22243AA4F10081CE58 /* Build configuration list for PBXProject "ClickCounter" */;
+			buildConfigurationList = E79F5A22243AA4F10081CE58 /* Build configuration list for PBXProject "ClickCounterViewControllerOnly" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -319,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E79F5A22243AA4F10081CE58 /* Build configuration list for PBXProject "ClickCounter" */ = {
+		E79F5A22243AA4F10081CE58 /* Build configuration list for PBXProject "ClickCounterViewControllerOnly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E79F5A39243AA4F30081CE58 /* Debug */,
